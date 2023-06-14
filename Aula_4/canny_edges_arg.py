@@ -3,7 +3,7 @@ import numpy as np
 import argparse
 
 
-
+#Recebe o argumento obrigatório do caminho da imagem.
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--path_image", required=True, help="caminho para a imagem de entrada")
 args = vars(parser.parse_args())
